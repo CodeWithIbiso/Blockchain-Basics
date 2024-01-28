@@ -45,6 +45,9 @@ Trust minimised agreements
 How to ask questions - 5:38
 1. HardHat
     1. EthersJS
+    2. yarn add solc
+    3. yarn solcjs --bin --abi --include-path node_modules/ --base-path . -o . SimpleStorage.sol  
+    
 
 
 

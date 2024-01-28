@@ -1,8 +1,8 @@
-{/**
+/**
     Get funds from users
     Withdraw funds
     Set a minimum funding value in USD
-*/}
+*/
 
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.8;
@@ -12,7 +12,7 @@ import "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
 contract FundMe{ 
 
     uint256 minimumUsd = 50 * 1e18;
-    address funders[];
+    address funders[] ;
     // mapping is like objects - key value pairs
     mapping(address=>uint256) public addressToAmountFunded;
 
@@ -52,7 +52,7 @@ contract FundMe{
 
     function getConversionRate(uint256 ethAmount) public view returns (uint256){
         // in solidity maths always multiply before you divide
-        uint256 ethPrice = getPrice()
+        uint256 ethPrice = getPrice();
         uint256 ethAmountInUsd = (ethPrice * ethAmount) /  1e18;
 
         return ethAmountInUsd;

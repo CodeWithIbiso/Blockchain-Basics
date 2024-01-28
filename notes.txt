@@ -44,6 +44,7 @@ Trust minimised agreements
 ========SOLIDITY BASICS COMPLETED=====5:30
 How to ask questions - 5:38
 1. HardHat
+    1. EthersJS
 
 
 

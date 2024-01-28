@@ -1,0 +1,68 @@
+
+Dapp - decentralised application
+Decentralised protocol - smart contract
+
+
+Dapp is usually a combination of many smart contracts
+
+The pinky swear
+
+Scratch card
+
+Immutable transparent  decentralised
+
+Flamingo
+
+Defi - decentralised finance
+
+Trust minimised agreements
+
+========
+1. Set up wallet using META-MASK - 42
+    1. Mnemonics 
+    2. etherscan.io
+    3. Your private key - should not be shared
+    4. Ethereum mainet and Ethereum testate -48
+    5. Rinkby and Kovan eg rinkby etherscan
+    6. Faucet - 51 eg faucets.chain.link
+    7. Gas - unit of computational measurement
+    8. Gas lower limit * gas price = transactional fee
+2. Hash is unique fixed length of string used to identify data. Created by putting data in hash function
+    1. Block,nonce and data to produce hash starting with 4 zeros - Andersbrownworth.com
+    2. Genesis block - first block in blockchain. Distributed is decentralised 
+    3. Hash, block, blockchain, distributed, tokens,
+    4. Sign transaction, create public key from private key and last digit of public key is your address
+    5. Proof of work - miners
+    6. Proof of stake - validators
+    7. Try running a node when u become an expert
+3. Remix - contracts
+    1. Each executed smart contract has an address
+    2. View and pure does not require gas to execute cause view just reads while pure doesn’t do anything with the variables defined . Transaction are made when modifying state
+    3. Store data in solidity - stack,memory,storage,calldata,code,logs - string as memory since its array when passed as function param
+    4. To deploy - Injected web3 - docs.chain.link/docs/link-token-contracts/ 2:55
+    5. Composability - contracts interacting with other contracts
+========SOLIDITY BASICS COMPLETED=====5:30
+How to ask questions - 5:38
+1. HardHat
+
+
+
+
+=====Question
+What if no value satisfies the nonce
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

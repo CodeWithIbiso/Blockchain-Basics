@@ -55,12 +55,14 @@ How to ask questions - 5:38
 =====Question
 What if no value satisfies the nonce
 
-======Test recovery phrase
-suspect total olympic entire pupil palace solve grit impose forward shoe crane
+
 
 yarn compile  
 ganesh     
 yarn add ethers
+
+export CAT=dog
+echo $CAT
 
 
 

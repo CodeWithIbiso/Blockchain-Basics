@@ -47,13 +47,20 @@ How to ask questions - 5:38
     1. EthersJS
     2. yarn add solc
     3. yarn solcjs --bin --abi --include-path node_modules/ --base-path . -o . SimpleStorage.sol  
-    
+
 
 
 
 
 =====Question
 What if no value satisfies the nonce
+
+======Test recovery phrase
+suspect total olympic entire pupil palace solve grit impose forward shoe crane
+
+yarn compile  
+ganesh     
+yarn add ethers
 
 
 
